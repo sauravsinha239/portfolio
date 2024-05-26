@@ -132,7 +132,7 @@ span {
 .home-img img {
     position: relative;
     top: 3rem;
-    width: 32vw;
+    width: 48vb;
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     cursor: pointer;
@@ -157,7 +157,7 @@ span {
 
 
 .social-icons a {
-    display: inline-flex;
+    display: -webkit-inline-flex;
     justify-content: center;
     align-items: center;
     width: 4.5rem;
@@ -167,7 +167,7 @@ span {
     font-size: 2.5rem;
     border-radius: 50%;
     color: var(--main-color);
-    margin: 3rem 2rem, 3rem, 1rem;
+    margin: 5px;
     transition: 0.4s ease-in-out;
 }
 
@@ -180,7 +180,7 @@ span {
 
 .btn {
     display: inline-block;
-    padding: 1rem 2rem;
+    padding: 0.5em 1em;
     background: var(--main-color);
     box-shadow: 0 0 25px var(--second-bg-color);
     border-radius: 4rem;
@@ -191,7 +191,7 @@ span {
     font-weight: 600;
     transition: 03s ease-in-out;
     cursor: pointer;
-    margin: 10px;
+    margin: 5px;
 
 
 }
