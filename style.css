@@ -600,6 +600,81 @@ span {
     color: white;
 }
 
+.Achivment {
+    background: var(--second-bg-color);
+
+}
+
+.Achivment-box {
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Achivment.heading {
+    margin-bottom: 5rem;
+}
+
+.Achivment-box img {
+    width: 15rem;
+    border-radius: 56%;
+    border: 3px solid var(--main-color);
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.Achivment-item {
+    min-height: 550px;
+    max-width: 450px;
+    background: rgba(0, 0, 0, 0.7);
+    border: 3px;
+    border-radius: 2rem;
+    margin: 0 2rem;
+    padding: 30px 60px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5rem;
+    color: white;
+    transition: 0.5s ease-in-out;
+
+}
+
+.Achivment-item:hover {
+    border: 3px solid var(--main-color);
+    transform: translateY(-1ppx)scale(1.02);
+    box-shadow: 0 0 50px var(--main-color);
+}
+
+.Achivment-item h2 {
+    font-size: 2rem;
+}
+
+Achivment-item p {
+    font-size: 2rem;
+}
+
+#star {
+    color: gold;
+}
+
+
+.navbar {
+    position: absolute;
+    top: 100%;
+
+}
+
+
 @media screen and (min-width: 80rem) {
     .container {
         margin: 1em 2em;
